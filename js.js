@@ -1,6 +1,5 @@
 var button = document.getElementById('q1');
 var answer = document.getElementById('qa-answer');
-
 button.addEventListener('click', runEvent);
 function runEvent(e){
    if(answer.style.display !== "none")
